@@ -1,0 +1,83 @@
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 2000% 2000%;
+	animation: gradient 15s ease infinite;
+}
+
+.title {
+	font-size: 50px;
+	color: white;
+	text-align: center;
+	font-family: 'Neue Kabel'
+}
+
+.namebox {
+	font-size: 30px;
+	color: white;
+	text-align: center;
+	margin-top: 190px;
+	font-family: 'Neue Kabel'
+}
+
+form {
+	text-align: center;
+}
+
+input {
+	margin-top: 50px;
+	padding: 9px;
+	border-color: blue;
+	font-family: 'Neue Kabel';
+	font-size: 15px;
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #000;
+    position: absolute;
+    border-radius: 15px;
+}
+
+
+.text {
+	font-size: 100px;
+	text-align: center;
+	font-family: 'Neue Kabel';
+	color: white;
+	margin-top: 240px;
+
+}
+
+ button {
+  border: none;
+  color: black;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-family: Neue Kabel;
+  max-width: 50vh;
+  margin: 10px;
+  border-radius: 30px;
+  margin-top:0px;
+}
+
+#button-container {
+	text-align: right;
+
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
